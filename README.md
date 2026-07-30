@@ -147,3 +147,14 @@ PortBannerAnalyzerPro/
 ```
 
 # 📸 Screenshots
+
+## 📸 Screenshots
+
+### 🔍 Risk Analysis
+
+![Risk Analysis](screenshots/risk-analysis.png)
+
+
+### 📊 Report Export
+
+![Report Export](screenshots/report-export.png)

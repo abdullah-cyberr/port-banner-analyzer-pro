@@ -108,18 +108,12 @@ def scan_ports(target, start_port, end_port, timeout, threads):
 
             completed += 1
 
-            print(
-                f"\rScanning: {completed}/{total_ports}",
-                end="",
-                flush=True
-)
-
             result = future.result()
 
             if result:
                 open_ports.append(result)
 
-            print()
-
-
+    print(
+         f"\nScan completed: {total_ports} ports checked"
+    )
     return open_ports
