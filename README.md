@@ -1,8 +1,10 @@
 # 🔍 Port Banner Analyzer Pro
 
-![Python](https://img.shields.io/badge/Python-3-blue)
+![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Security](https://img.shields.io/badge/Focus-Cyber%20Security-red)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
 ![License](https://img.shields.io/badge/License-Educational-green)
+![Status](https://img.shields.io/badge/Project-Active-success)
 
 A professional Python-based cybersecurity reconnaissance tool for TCP port scanning, banner grabbing, service fingerprinting, risk assessment, vulnerability detection, and security reporting.
 
