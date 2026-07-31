@@ -158,3 +158,7 @@ PortBannerAnalyzerPro/
 ### 📊 Report Export
 
 ![Report Export](screenshots/report-export.png)
+
+🛠 Technologies Used
+⚡ Installation
+▶ Usage
