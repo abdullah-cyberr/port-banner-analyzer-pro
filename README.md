@@ -33,6 +33,8 @@ This project demonstrates practical implementation of Python for Cyber Security 
 
 ## 🔹 Network Scanning
 
+Perform fast and efficient TCP port scanning with concurrent execution for improved performance.
+
 ✅ TCP Port Scanner  
 ✅ Multi-threaded scanning using ThreadPoolExecutor  
 ✅ Fast concurrent port scanning  
@@ -43,6 +45,8 @@ This project demonstrates practical implementation of Python for Cyber Security 
 
 ## 🔹 Banner Grabbing & Analysis
 
+Collect and analyze service banners to identify running services and extract useful information.
+
 ✅ TCP Banner Collection  
 ✅ Smart HTTP Request Handling  
 ✅ SSH Banner Handling  
@@ -52,6 +56,8 @@ This project demonstrates practical implementation of Python for Cyber Security 
 
 ## 🔹 Service Fingerprinting
 
+Identify software, versions, vendors, and operating system hints using banner fingerprinting.
+
 ✅ Regex-based service detection  
 ✅ Software identification  
 ✅ Version extraction  
@@ -60,6 +66,8 @@ This project demonstrates practical implementation of Python for Cyber Security 
 
 
 ## 🔹 Security Risk Analysis
+
+Analyze detected services for known risks, vulnerabilities, CVEs, and calculate security severity.
 
 ✅ Service Risk Detection  
 ✅ CVE Detection  
@@ -79,6 +87,8 @@ Risk Levels:
 
 ## 🔹 Reporting System
 
+Generate structured reports for documentation and further security analysis.
+
 ✅ JSON Report Export  
 ✅ CSV Report Export  
 ✅ Timestamped Reports  
@@ -87,6 +97,8 @@ Risk Levels:
 
 
 ## 🔹 Professional CLI
+
+Provide a clean and user-friendly command-line interface with robust error handling.
 
 ✅ argparse based command interface  
 ✅ Version system  
@@ -98,6 +110,8 @@ Risk Levels:
 
 
 ## 🔹 Logging System
+
+Maintain detailed logs for debugging, troubleshooting, and scan history.
 
 ✅ Professional logging system  
 ✅ Scan activity logging  
