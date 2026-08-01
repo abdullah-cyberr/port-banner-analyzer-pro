@@ -196,6 +196,24 @@ PortBannerAnalyzerPro/
 - 🔹 Automated vulnerability report generation
 
 
+# 👨‍💻 Author
+
+**Abdullah Al Sadat**
+
+Cyber Security Enthusiast | Python Developer
+
+Interested in:
+
+* Python for Cyber Security
+* Network Security
+* Security Automation
+* Vulnerability Analysis
+
+🔗 GitHub: https://github.com/abdullah-cyberr
+🔗 LinkedIn: www.linkedin.com/in/abdullah-al-sadat-7a925a423
+
+
+
 🛠 Technologies Used
 ⚡ Installation
 ▶ Usage
