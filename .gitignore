@@ -1,8 +1,26 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# Logs
 logs/
+
+# Generated Reports
 reports/
 
+# IDE Settings
 .vscode/
 .idea/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
