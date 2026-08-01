@@ -1,0 +1,3 @@
+port,service,software,version,vendor,os_hint,risk_level,risk_score,severity,cves,recommendations
+22,SSH,OpenSSH,6.6.1p1,OpenSSH Project,Ubuntu,MEDIUM,40,MEDIUM,CVE-2016-0777,Upgrade OpenSSH to latest version
+80,HTTP,Apache,2.4.7,Apache Software Foundation,Ubuntu,MEDIUM,30,MEDIUM,CVE-2013-6420,Upgrade Apache HTTP Server
