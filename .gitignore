@@ -24,3 +24,6 @@ reports/
 # OS Generated Files
 .DS_Store
 Thumbs.db
+
+# Pytest cache
+.pytest_cache/

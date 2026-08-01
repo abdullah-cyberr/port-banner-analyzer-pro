@@ -6,11 +6,13 @@
 ![License](https://img.shields.io/badge/License-Educational-green)
 ![Status](https://img.shields.io/badge/Project-Active-success)
 
+..
+
 A professional Python-based cybersecurity reconnaissance tool for TCP port scanning, banner grabbing, service fingerprinting, risk assessment, vulnerability detection, and security reporting.
 
 ---
 
-# 📌 Overview
+# 📌 Overviewgit status
 
 Port Banner Analyzer Pro is an advanced network reconnaissance and security analysis tool developed using Python.
 
@@ -130,7 +132,18 @@ Maintain detailed logs for debugging, troubleshooting, and scan history.
 
 ---
 
-# 🏗️ Project Architecture
+# 🧪 Testing
+
+Port Banner Analyzer Pro includes automated testing using **pytest**.
+
+Run tests:
+
+```bash
+pytest
+
+
+# 🗂️ Project Architecture
+
 
 ```text
 PortBannerAnalyzerPro/
@@ -139,40 +152,69 @@ PortBannerAnalyzerPro/
 ├── banner_analyzer.py
 │       Main CLI Application
 │
+├── banner_test_server.py
+│       Local Banner Testing Server
+│
 ├── core/
 │
 │   ├── scanner.py
-│   │       TCP Port Scanner Engine
+│   │       TCP Port Scanning Engine
 │   │
 │   ├── banner.py
 │   │       Banner Grabbing Module
 │   │
 │   ├── analyzer.py
-│   │       Service Fingerprinting Engine
+│   │       Service Fingerprinting & Analysis Engine
 │   │
 │   ├── risk.py
-│   │       Risk Score & Security Analysis Engine
+│   │       Security Risk Detection Module
+│   │
+│   ├── risk_score.py
+│   │       Risk Score Calculation Engine
+│   │
+│   ├── cve_db.py
+│   │       Vulnerability Database
+│   │
+│   ├── exporter.py
+│   │       JSON & CSV Report Exporter
+│   │
+│   ├── logger.py
+│   │       Logging System
 │   │
 │   ├── colors.py
 │   │       CLI Color Management
 │   │
-│   └── logger.py
-│           Logging System
+│   └── utils.py
+│           Utility Functions
+│
+├── tests/
+│   └── test_analyzer.py
+│       Automated Pytest Tests
+│
+├── sample_reports/
+│   ├── sample_scan_report.csv
+│   └── sample_scan_report.json
+│
+├── screenshots/
+│   ├── demo.gif
+│   ├── report-export.png
+│   └── risk-analysis.png
 │
 ├── reports/
-│       JSON & CSV Reports
+│       Generated Scan Reports (Ignored)
 │
 ├── logs/
-│       Application Logs
+│       Application Logs (Ignored)
 │
-├── test_server.py
-│       Local Testing Server
+├── pytest.ini
+│       Pytest Configuration
 │
 └── requirements.txt
-```
+        Project Dependencies
 
 # 📸 Screenshots
 
+## 📸 Screenshots
 
 ### 🔍 Risk Analysis
 
@@ -183,37 +225,21 @@ PortBannerAnalyzerPro/
 
 ![Report Export](screenshots/report-export.png)
 
-# 🚀 Future Improvements
+# 🛠 Technologies Used
 
-- 🔹 Integration with Nmap engine for advanced scanning
-- 🔹 Real-time CVE database API integration
-- 🔹 Web-based dashboard for scan visualization
-- 🔹 PDF security report generation
-- 🔹 Advanced OS fingerprinting
-- 🔹 Database support for scan history
-- 🔹 User authentication and role-based access
-- 🔹 Docker container support
-- 🔹 Automated vulnerability report generation
-
-
-# 👨‍💻 Author
-
-**Abdullah Al Sadat**
-
-Cyber Security Enthusiast | Python Developer
-
-Interested in:
-
-* Python for Cyber Security
-* Network Security
-* Security Automation
-* Vulnerability Analysis
-
-🔗 GitHub: https://github.com/abdullah-cyberr
-🔗 LinkedIn: www.linkedin.com/in/abdullah-al-sadat-7a925a423
+- Python 3.14
+- TCP Socket Programming
+- ThreadPoolExecutor
+- Argparse CLI
+- Colorama
+- Regular Expressions
+- JSON & CSV Reporting
+- Pytest
 
 
+# ⚡ Installation
 
-🛠 Technologies Used
-⚡ Installation
-▶ Usage
+Clone the repository:
+
+```bash
+git clone https://github.com/abdullah-cyberr/port-banner-analyzer-pro.git
