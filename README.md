@@ -29,6 +29,15 @@ This project demonstrates practical implementation of Python for Cyber Security 
 
 ---
 
+# 🎬 Demo
+
+
+<p align="center">
+  <img src="screenshots/demo.gif" alt="Port Banner Analyzer Pro Demo" width="900">
+</p>
+
+
+
 # 🚀 Features
 
 ## 🔹 Network Scanning
@@ -164,7 +173,6 @@ PortBannerAnalyzerPro/
 
 # 📸 Screenshots
 
-## 📸 Screenshots
 
 ### 🔍 Risk Analysis
 
